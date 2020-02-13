@@ -4,4 +4,4 @@ function entierAleatoire(min, max) {
 
 let alea = entierAleatoire(0, 10);
 
-document.querySelector("#result").innerHTML = `<p>${alea}</p>`;
+document.querySelector("#result").innerHTML = `<p>Your random number is : ${alea}</p>`;
